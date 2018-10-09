@@ -1,0 +1,189 @@
+@import _variables
+@import _reset
+
+// Section One
+#bg_img
+    background: url("../img/bg_video.png") no-repeat center center
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    height: 50vh
+    overflow: hidden
+
+    .alert
+        display: none
+
+    .container
+        height: 100%
+
+        .row 
+            height: 100%
+            margin: auto
+            text-align: center
+            width: 75%
+            @media (max-width: $break-large)
+                width: 100%
+
+        h1 
+            color: $blue
+            font-size: 65px
+            @media (max-width: $break-large)
+                font-size: 44px
+            
+            @media (max-width: $break-medium)
+                font-size: 32px
+
+
+        h3 
+            color: $orange
+            font-family: $lato
+            font-size: 32px
+            @media (max-width: $break-large)
+                font-size: 26px
+
+            @media (max-width: $break-medium)
+                font-size: 18px
+            
+
+        p 
+            color: $dark
+            font-family: $lato
+            font-size: 28px
+            @media (max-width: $break-large) 
+                font-size: 22px
+
+            @media (max-width: $break-medium)
+                font-size: 16px
+
+// Section Two
+#dark_bullets
+    background-color: $blue
+    color: $white
+    min-height: 50vh
+
+    .container 
+        height: 100%
+        padding: 25px
+
+        .row 
+            font-family: $lato
+            margin: 0 auto
+            width: 75%
+            @media (max-width: $break-large)
+                width: 100%
+
+            h4
+                @media (max-width: $break-medium)
+                    font-size: 20px
+
+            h4
+            h3
+                font-family: $playfair
+
+// Section Three
+#contact
+    padding: 3rem
+
+    @media (max-width: $break-medium)
+        padding: 1rem
+    @media (max-width: $break-small)
+        padding: 25px 0 0 0
+
+    .row 
+        margin: 0 auto
+        width: 90%
+        @media (max-width: $break-xl)
+            width: 100%
+        
+    .body 
+        background-color: rgba(0,98,128, 0.2)
+        height: 100%
+        font-size: 42px
+        font-weight: bold
+        margin: 0 auto
+        padding: 15px
+        text-align: center
+        width: 60%
+        @media (max-width: $break-xl)
+            width: 75%
+        @media (max-width: $break-large)
+            width: 85%
+        @media (max-width: $break-ml)
+            width: 100%
+
+        #sagittis
+            color: $orange
+
+        h4 
+            color: $dark
+            font-size: 30px
+            font-family: $lato
+            opacity: 0.9
+            @media (max-width: $break-ml)
+                font-size: 24px
+        
+        h3 
+            font-family: $playfair
+    
+    form
+        label 
+            font-family: $lato
+
+        input 
+            border-color: $dark
+            border-radius: 0px
+
+        .btn-submit
+            background-color: $orange
+            border-radius: 0px
+            color: $white
+            font-family: $lato
+            width: 75%
+            @media (max-width: $break-large)
+                width: 100%
+            @media (max-width: $break-medium)
+                font-size: 16px
+            @media (max-width: $break-small)
+                font-size: 14px
+
+// Section Four
+#bg_orange
+    background-color: rgba(201,84,10, 0.075)
+
+    .container 
+        padding: 3rem
+        @media (max-width: $break-medium)
+            padding: 1rem
+
+        h3
+            color: $orange
+            @media (max-width: $break-medium)
+                font-size: 22px
+            
+        .row 
+            font-family: $lato
+            width: 85%
+            @media (max-width: $break-large)
+                width: 100%
+        
+        .btn-product
+            background-color: $orange
+            border-radius: 0px
+            color: $white
+            font-family: $lato
+            height: 50px
+            width: 40%
+            @media (max-width: $break-large)
+                width: 100%
+            @media (max-width: $break-ml)
+                font-size: 14px
+            @media (max-width: $break-small)
+                font-size: 12px
+
+// Footer
+footer 
+    p 
+        font-size: 12px
+        font-family: $lato
+        text-align: center
